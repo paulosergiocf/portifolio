@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ------Pagina------ */
+body {
+    text-align: center;
+    background: #252525;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Menu */
+.menu {
+
+    padding-top: 2%;
+    background: #181818;
+    height: 50px;
+}
+
+.menu a {
+    padding: 0.8rem;
+    border: solid #353535 1px;
+    text-decoration: none;
+    color: #f2f2f2;
+    background: #181818;
+    border-radius: 10%;
+    margin-left: .3em;
+}
+.menu a:hover{
+    background: #252525;
+}
+/* Conteudos */
+section {
+    padding: 5%;
+    height: 700px;
+}
+
+section h1 {
+    color: darkorange;
+}
+
+button {
+    margin: 10px;
+    padding: 1em;
+    border-radius: 1em;
+}
+/*-------------PAGINA INICIO-----------*/
+.section-inicio {
+    background: #252525;
+}
+
+.section-inicio h2{
+    color: #7e7d7d;
+}
+
+.inicio-logo {
+    text-align: center;
+}
+
+.inicio-logo img{
+    width: 50%;
+}
+
+.section-sobre{
+    background-color: #f2f2f2;
+}
+
+.section-projetos{
+    background-color: #f2f2f2;
+}
