@@ -12,14 +12,21 @@ body {
     background: #252525;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 80px
+    
 }
-
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
 /* Menu */
 .menu {
 
     padding-top: 2%;
     background: #181818;
     height: 50px;
+    display: block;
 }
 
 .menu a {
@@ -35,13 +42,17 @@ body {
     background: #252525;
 }
 /* Conteudos */
+
 section {
     padding: 5%;
     height: 700px;
+    min-height: 80vh;
+    padding-top: 10%;
 }
 
 section h1 {
     color: darkorange;
+    
 }
 
 button {
@@ -52,6 +63,8 @@ button {
 /*-------------PAGINA INICIO-----------*/
 .section-inicio {
     background: #252525;
+    min-height: 100vh;
+
 }
 
 .section-inicio h2{
@@ -67,21 +80,98 @@ button {
 }
 /* -----------SOBRE-----------------*/
 .section-sobre{
-    background-color: #f2f2f2;
-}
-
-.section-projetos{
+   
     background-color: #f2f2f2;
     
+}
+
+
+.texto-sobre {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .texto-sobre p{
     color: #252525;
     line-height: 2em;
     text-align: justify;
 }
+/* -----------EDUCACÃO-----------------*/
+.section-educacao {
+    color: #f2f2f2;
+    line-height: 1.5;
+}
+.section-educacao h2{
+    color: #f2f2f2;
+    font-size: 1.3em;
+
+}
+
+.sumary-formcao-complementar-geral{
+    margin-top: 1em;
+    color: #f2f2f2;
+    font-size: 1.3em;
+    font-weight: bold;
+
+}
+
+.lista-educacao ul{
+    border: #7e7d7d solid 0.5px;
+    border-radius: 2em;
+    width: 65%;
+    margin: 1em auto 0 auto;
+    background: #181818;
+    padding: 1em;
+}
+.lista-educacao li{
+    list-style: none;
+}
+.detalhes-formacao-complementar {
+    border: #7e7d7d solid 0.5px;
+    border-radius: 2em;
+    width: 65%;
+    margin: 1em auto  0 auto;
+    background: #181818;
+    padding: 1em;
+}
+
+.detalhes-formacao-complementar summary {
+    color: #716bb1;
+    font-weight: bold;
+    
+}
+/* -----------PROJETOS-----------------*/
+.section-projetos {
+    background-color: #f2f2f2;
+
+}
+
+.contatos-botoes {
+    padding: 5%;
+}
+.contatos-botoes a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+.contatos-botoes li {
+    padding: 2em;
+    margin: 5px;
+    display: inline-block;
+    border: #7e7d7d solid 0.5px;
+    border-radius: 5%;
+    text-decoration: none;
+    
+}
+
+.contatos-botoes img{
+    height: 150px;
+}
 
 footer {
-    padding: 5%;
+    padding: 2%;
     background: #181818;
     color: #7e7d7d;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
