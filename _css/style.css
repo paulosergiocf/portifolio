@@ -55,11 +55,6 @@ section h1 {
     
 }
 
-button {
-    margin: 10px;
-    padding: 1em;
-    border-radius: 1em;
-}
 /*-------------PAGINA INICIO-----------*/
 .section-inicio {
     background: #252525;
@@ -76,15 +71,31 @@ button {
 }
 
 .inicio-logo img{
-    width: 50%;
+    width: 40%;
 }
-/* -----------SOBRE-----------------*/
-.section-sobre{
-   
-    background-color: #f2f2f2;
+.apresentacao-inicio {
+    margin-bottom: 2%;
+}
+
+.curriculo {
     
 }
 
+.curriculo-botao {
+    padding: 1em;
+    border-radius: 1em;
+    background: #181818;
+    text-decoration: none;
+    color: #716bb1;
+}
+.tecnologias {
+    padding-top: 5%;
+}
+/* -----------SOBRE-----------------*/
+.section-sobre{
+    background-color: #f2f2f2;
+    
+}
 
 .texto-sobre {
     width: 60%;
