@@ -1,18 +1,9 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    font-family: 'Roboto', sans-serif;
-    
-}
-
 /* ------Pagina------ */
 body {
     text-align: center;
     background: #252525;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 80px
+    padding-top: 80px;
+    
     
 }
 header {
@@ -48,22 +39,27 @@ section {
     height: 700px;
     min-height: 80vh;
     padding-top: 10%;
+    min-width: 300px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section h1 {
     color: darkorange;
+    font-size: 1.4em;
     
 }
 
 /*-------------PAGINA INICIO-----------*/
 .section-inicio {
     background: #252525;
-    min-height: 100vh;
 
 }
 
 .section-inicio h2{
     color: #7e7d7d;
+    font-size: 1.2em;
 }
 
 .inicio-logo {
@@ -71,14 +67,10 @@ section h1 {
 }
 
 .inicio-logo img{
-    width: 40%;
+    width: 45%;
 }
 .apresentacao-inicio {
     margin-bottom: 2%;
-}
-
-.curriculo {
-    
 }
 
 .curriculo-botao {
@@ -92,6 +84,10 @@ section h1 {
     padding-top: 5%;
 }
 /* -----------SOBRE-----------------*/
+.section-sobre {
+    background: url("../imagens/home.svg") no-repeat right bottom;
+    background-size: 50%;
+}
 .section-sobre{
     background-color: #f2f2f2;
     
@@ -101,12 +97,16 @@ section h1 {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    
 }
 .texto-sobre p{
     color: #252525;
     line-height: 2em;
     text-align: justify;
+    
 }
+
+
 /* -----------EDUCACÃO-----------------*/
 .section-educacao {
     color: #f2f2f2;
@@ -156,7 +156,34 @@ section h1 {
     background-color: #f2f2f2;
 
 }
+.galeria-projetos {
+    padding: 5%;
 
+}
+.galeria-projetos a {
+    text-decoration: none;
+    color: darkslateblue;
+}
+
+.galeria-projetos li {
+    padding: 3em;
+    margin: 5px;
+    display: inline-block;
+    border: #c5c2c2 solid 0.5px;
+    border-radius: 2%;
+    text-decoration: none;
+    width: 7em;
+    height: 10em;
+
+}
+.galeria-projetos img {
+    height: 4em;
+}
+.galeria-projetos li {
+    background-color: #f2f2f2;
+    color: #716bb1;
+}
+/*------------CONTATOS---------------*/
 .contatos-botoes {
     padding: 5%;
 }
@@ -175,14 +202,6 @@ section h1 {
 }
 
 .contatos-botoes img{
-    height: 150px;
+    height: 4em;
 }
 
-footer {
-    padding: 2%;
-    background: #181818;
-    color: #7e7d7d;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
